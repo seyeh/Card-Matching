@@ -14,7 +14,7 @@ A simple iOS game that flips cards when a card is pressed. If two cards are flip
 Install XCode 11.4.1 and copy the code into a new single-view swift application
 ```
 
-Note to Linux users: If you get a "No usable sandbox!" error, you need to enable [system sandboxing](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#setting-up-chrome-linux-sandbox).
+Note to Windows and Linux users: XCode is only available for MacOS
 
 ## Usage
 
