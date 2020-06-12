@@ -10,7 +10,13 @@ A simple iOS game that flips cards when a card is pressed. There are six themes 
 ## Install
 
 ```
-Install XCode 11.4.1 and copy the code into a new single-view swift application
+Install XCode 11.4.1 
+
+Create a single-view application in XCode
+
+Drag the the .swift files into the XCode Project
+
+In the future, the open in XCode button will be available on Github
 ```
 
 Note to Windows and Linux users: XCode is only available for MacOS
@@ -24,4 +30,4 @@ Note to Windows and Linux users: XCode is only available for MacOS
 - [ ] Add a restart game button
 - [ ] Add a scoring system and score label
 - [ ] Add a timer
-
+- [ ] Add the ability to open in XCode on Github
