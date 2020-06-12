@@ -10,16 +10,21 @@ import SwiftUI
 
 struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: emojiMemoryGame
+    @State var gameOver = false
     var body: some View {
-        //let fontsize = viewModel.cards.count > 8 ? Font.body : Font.largeTitle
+        Button(action: {
+            // What to perform
+            print("Hello World")
+        }) {
+            // How the button looks like
+            Text("Hello World").background(Color.purple)
+        }
         return Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
                     self.viewModel.choose(card: card)
                 }
-            //Button("New Game", action: addItem)
+            
             }.padding().foregroundColor(Color.blue)
-            //.aspectRatio(0.67, contentMode: .fit)
-            //.font(fontsize)
     }
 }
 
