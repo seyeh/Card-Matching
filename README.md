@@ -2,11 +2,10 @@
 First iOS Game
 
 
-[![Build Status](https://travis-ci.org/sindresorhus/pageres.svg?branch=master)](https://travis-ci.org/sindresorhus/pageres) [![Coverage Status](https://coveralls.io/repos/sindresorhus/pageres/badge.svg?branch=master)](https://coveralls.io/r/sindresorhus/pageres?branch=master)
+[![Build Status](https://travis-ci.org/sindresorhus/pageres.svg?branch=master)](https://travis-ci.org/sindresorhus/pageres) 
 
-A simple iOS game that flips cards when a card is pressed. If two cards are flipped and matched, the pair of cards remain flipped over.
+A simple iOS game that flips cards when a card is pressed. There are six themes each with different amounts of cards to match. If two cards are flipped and matched, the pair of cards remain flipped over.
 
-*See [pageres-cli](https://github.com/sindresorhus/pageres-cli) for the command-line tool.*
 
 ## Install
 
@@ -16,22 +15,9 @@ Install XCode 11.4.1 and copy the code into a new single-view swift application
 
 Note to Windows and Linux users: XCode is only available for MacOS
 
-## Usage
+## Demo
 
-```js
-const Pageres = require('pageres');
 
-(async () => {
-	await new Pageres({delay: 2})
-		.src('https://github.com/sindresorhus/pageres', ['480x320', '1024x768', 'iphone 5s'], {crop: true})
-		.src('https://sindresorhus.com', ['1280x1024', '1920x1080'])
-		.src('data:text/html,<h1>Awesome!</h1>', ['1024x768'])
-		.dest(__dirname)
-		.run();
-		
-	console.log('Finished generating screenshots!');
-})();
-```
 
 ## API
 
