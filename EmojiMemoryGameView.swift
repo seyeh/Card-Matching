@@ -12,10 +12,11 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: emojiMemoryGame
     var body: some View {
         //let fontsize = viewModel.cards.count > 8 ? Font.body : Font.largeTitle
-        Grid(viewModel.cards) { card in
+        return Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
                     self.viewModel.choose(card: card)
                 }
+            //Button("New Game", action: addItem)
             }.padding().foregroundColor(Color.blue)
             //.aspectRatio(0.67, contentMode: .fit)
             //.font(fontsize)
