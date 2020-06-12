@@ -19,3 +19,9 @@ Note to Windows and Linux users: XCode is only available for MacOS
 
 
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-06-12 at 02 07 33](https://user-images.githubusercontent.com/26934695/84486346-279b3400-ac52-11ea-93cc-9ca7a21e721e.png)
+
+## TODO
+- [ ] Add a restart game button
+- [ ] Add a scoring system and score label
+- [ ] Add a timer
+
