@@ -4,14 +4,14 @@ First iOS Game
 
 [![Build Status](https://travis-ci.org/sindresorhus/pageres.svg?branch=master)](https://travis-ci.org/sindresorhus/pageres) [![Coverage Status](https://coveralls.io/repos/sindresorhus/pageres/badge.svg?branch=master)](https://coveralls.io/r/sindresorhus/pageres?branch=master)
 
-Capture screenshots of websites in various resolutions. A good way to make sure your websites are responsive. It's speedy and generates 100 screenshots from 10 different websites in just over a minute. It can also be used to render SVG images.
+A simple iOS game that flips cards when a card is pressed. If two cards are flipped and matched, the pair of cards remain flipped over.
 
 *See [pageres-cli](https://github.com/sindresorhus/pageres-cli) for the command-line tool.*
 
 ## Install
 
 ```
-$ npm install pageres
+Install XCode 11.4.1 and copy the code into a new single-view swift application
 ```
 
 Note to Linux users: If you get a "No usable sandbox!" error, you need to enable [system sandboxing](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#setting-up-chrome-linux-sandbox).
